@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body {
+  color: #4d4e53;
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif;
+  line-height: 1.5;
+}
+
+.logo{
+  width: 40px;
+  vertical-align:middle;
+}
+
+header{
+  padding-top: 2em;
+  display: inline-block;
+  font-size: 1.9em;
+  font-weight: 600;
+  font-family: 'Antonio', sans-serif;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+main img {
+  display: block;
+  background-position: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: auto;
+}
+
+#navbar ul {
+  height: 88%;
+  padding: 0;
+  overflow-y: auto;
+  overflow-x: auto;
+  color: #4d4e53;
+  border-top: 1px solid;
+}
+
+#navbar li{
+  color: #4d4e53;
+  border-bottom: 1px solid;
+  list-style: none;
+  position: relative;
+  width: 100%;
+}
+
+#navbar a {
+  padding: 10px 30px;
+  color: #4d4e53;
+  text-decoration: none;
+  cursor: pointer;
+  display: block;  
+}
+
+#main-doc{
+  display: block;
+  margin-left: 310px;
+  padding-bottom: 20px;
+}
+
+section article {
+  margin: 15px;
+  font-size: 0.9em;
+}
+
+section li {
+  margin-top: 1%;
+  margin-left: 1%;
+}
+
+code {
+  background-color: #d0d5e0;
+  padding: .2em;
+  color: rgb(0, 0, 0);
+  font-weight: 900;
+  font-size: 1.1em;
+}
+
+@media only screen and (max-width: 815px) {
+  /* For mobile phones: */
+  #navbar {
+    background-color: white;
+    position: relative;
+    top: 0;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    border: none;
+    max-height: 200px;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-left: 0px;
+    margin-top: 150px;
+  }
+
+    #navbar ul {
+    border: 1px solid;
+}
+}
